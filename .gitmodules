@@ -1,0 +1,27 @@
+[submodule "2302-practice-color-picker"]
+	path = 2302-practice-color-picker
+	url = https://github.com/practice-skill-kyungsle/practice-color-picker.git
+[submodule "2302-practice-cookie"]
+	path = 2302-practice-cookie
+	url = https://github.com/practice-skill-kyungsle/practice-cookie.git
+[submodule "2302-practice-json-schema"]
+	path = 2302-practice-json-schema
+	url = https://github.com/practice-skill-kyungsle/practice-json-schema.git
+[submodule "2302-practice-webpack"]
+	path = 2302-practice-webpack
+	url = https://github.com/practice-skill-kyungsle/practice-webpack.git
+[submodule "2306-practice-react-test-library"]
+	path = 2306-practice-react-test-library
+	url = https://github.com/practice-skill-kyungsle/practice-react-test-library.git
+[submodule "2307-study-nomad-coder-react-native-101"]
+	path = 2307-study-nomad-coder-react-native-101
+	url = https://github.com/practice-skill-kyungsle/study-nomad-coder-react-native-101.git
+[submodule "2308-practice-react-prop-property"]
+	path = 2308-practice-react-prop-property
+	url = https://github.com/practice-skill-kyungsle/practice-react-prop-property.git
+[submodule "2310-practice-web-worker"]
+	path = 2310-practice-web-worker
+	url = https://github.com/practice-skill-kyungsle/practice-web-worker.git
+[submodule "2312-practice-event-bus"]
+	path = 2312-practice-event-bus
+	url = https://github.com/practice-skill-kyungsle/practice-event-bus.git
