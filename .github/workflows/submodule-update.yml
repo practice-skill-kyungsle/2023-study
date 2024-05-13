@@ -3,7 +3,8 @@ name: Update Submodule
 
 on:
   schedule:
-    - cron: '0 0 * * *' # 매일 자정에 실행
+    - cron: '0 0 * * *' # 영국시간으로 매일 0시에 실행
+  workflow_dispatch:
 
 jobs:
   update:
@@ -12,10 +13,17 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
+      with:
+        persist-credentials: false
+
+    - name: Configure git
+      run: |
+        git config --global user.name 'keinn51'
+        git config --global user.email 'soogood97@gmail.com'
 
     - name: Update submodule
       run: |
         git submodule update --remote
         git add .
         git commit -m "Update submodule" || echo "No changes to commit"
-        git push
+        git push https://${{ secrets.GH_PAT }}@github.com/practice-skill-kyungsle/2023-study.git main
