@@ -3,7 +3,7 @@ name: Update Submodule
 
 on:
   schedule:
-    - cron: '0 0 * * *' # 영국시간으로 매일 0시에 실행
+    - cron: '10 0 * * *' # 영국시간으로 매일 0시에 실행
   workflow_dispatch:
 
 jobs:
